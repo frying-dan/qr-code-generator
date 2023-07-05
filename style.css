@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 350px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    padding: 20px 20px;
+}
+
+.obj-container {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    background-color: hsl(218, 44%, 22%);
+    border-radius: 8px;
+    margin-bottom: -130px;
+}
+
+.text-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 300px;
+}
+
+.title {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.search-box {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 3px solid hsl(218, 44%, 22%);
+    background-color: antiquewhite;
+}
+
+.btn {
+    background-color: hsl(218, 44%, 22%);
+    border: none;
+    color: #ffff;
+    padding: 15px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25%;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 45%;
+    outline: none;
+    margin-top: 10px;
+}
+
+.qr-code {
+    width: 180px;
+    height: 180px;
+    background-color: aliceblue;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
